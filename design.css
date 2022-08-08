@@ -1,0 +1,31 @@
+body {
+    background-color: #8A84E2;
+}
+h1 {
+    color: black; 
+    text-align: center;
+}
+
+.topnav {
+background-color: #84AFE6;
+overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.topnav a:hover {
+    background-color: #D4DCFF;
+    color: black;
+}
+
+.topnav a.bleh {
+    background-color: #79BEEE;
+    color: black;
+}

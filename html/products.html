@@ -3,17 +3,30 @@
     <head>
         <meta charset="utf-8">
         <title>Products Stationary</title>
-        <link rel="stylesheet" href="css/design.css" />
+        <link rel="stylesheet" type="text/css" href="../css/allproducts.css" />
+        <script src="../js/dom.js"></script>
     </head>
     <body>
-<h1>Products</h1>
-<div class="topnav">
-    <a class="bleh" href="index.html">Home</a>
-    <a href="html/products.html">Products</a>
-    <a href="html/company.html">Company</a>
-    <a href="html/customer.html">Custmer Service</a>
-    <a href="html/about.html">About Us</a>
-    <a href="html/checkout.html">Check Out</a>
-</div>
+        <div class="topnav" id="myTopnav">
+            <a class="bleh" href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Products
+                    <i class="whew"></i>
+                </button>
+                <div class="dropcontent">
+                    <a href="products.html">All</a>
+                    <a href="../dropcontent/pens.html">Pens & Pencils</a>
+                    <a href="../dropcontent/paper.html">Paper & Notebooks</a>
+                    <a href="../dropcontent/postit.html">Post-It Notes</a>
+                </div>
+            </div>
+            <a href="company.html">Company</a>
+            <a href="customer.html">Customer Service</a>
+            <a href="about.html">About Us</a>
+            <a href="checkout.html">Check Out</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        <h1>Products</h1>
+
     </body>
 </html>

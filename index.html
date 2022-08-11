@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="sv">
     <head>
-        <title>Homepage stationary</title>
+        <title>Homepage Stationary</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css"  href="css/design.css">
         <script src="js/dom.js"></script>
@@ -27,9 +28,11 @@
     <a href="html/checkout.html">Check Out</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-<div class="header">
+<header>
     <h1>Stationary</h1>
-</div>
+</header>
+
+
 <div class="slideshow-container">
 <div class="myslides fade">
  <div class="bruv">1 / 3</div>
@@ -56,5 +59,19 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 </div>
+
+<div class="chat-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Chat</h1>
+  
+      <label for="msg"><b><p style="text-align: center;">Message</p></b></label>
+      <p style="text-align: center;">Hello! Here to answer your question, so ask anything.</p>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+  
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div> 
+
 </body>
 </html>

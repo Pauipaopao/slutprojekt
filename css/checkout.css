@@ -1,6 +1,7 @@
 body {
     background-color: #8A84E2;
     margin: 0;
+
 }
 h1 {
     color: black; 
@@ -203,3 +204,4 @@ span.price {
     margin-bottom: 20px;
   }
 }
+

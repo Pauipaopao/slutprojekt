@@ -1,5 +1,6 @@
 body {
     background-color: #8A84E2;
+    margin: 0;
 }
 h1 {
     color: black; 
@@ -106,6 +107,21 @@ overflow: hidden;
       text-align: left;
     }
   }
+
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px;
+}
 
 .row {
   display: -ms-flexbox; 

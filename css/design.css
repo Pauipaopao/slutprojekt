@@ -1,5 +1,9 @@
 body {
     background-color: #8A84E2;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 h1 {
     color: black; 

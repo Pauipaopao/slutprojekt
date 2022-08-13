@@ -148,6 +148,7 @@ overflow: hidden;
     height: 70px;
    }
 
-   #cart {
-    color: whitesmoke;
+   .need {
+    text-align: center;
+    margin: 20px;
    }

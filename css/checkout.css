@@ -3,6 +3,15 @@ body {
     margin: 0;
 
 }
+
+header {
+  background-color: whitesmoke;
+  padding: 30px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+
 h1 {
     color: black; 
     text-align: center;

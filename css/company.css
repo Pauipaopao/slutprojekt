@@ -10,6 +10,13 @@ html {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header {
+  background-color: #cdb4db;
+  padding: 30px;
+  overflow: hidden;
+  margin: 5px;
+}
+
 h1 {
     color: black; 
     text-align: center;

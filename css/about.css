@@ -6,6 +6,13 @@ body {
     flex-direction: column;
 }
 
+header {
+  background-color: whitesmoke;
+  padding: 30px;
+  overflow: hidden;
+  margin: 5px;
+}
+
 html {
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

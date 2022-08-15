@@ -1,25 +1,30 @@
 body {
-    background-color: #8A84E2;
+    background-color: #cdb4db;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-h1 {
+
+html {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2 {
     color: black; 
     text-align: center;
 }
 
 .topnav {
-background-color: #84AFE6;
+background-color: black;
 overflow: hidden;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
@@ -27,8 +32,8 @@ overflow: hidden;
 }
 
 .topnav a.bleh {
-    background-color: #79BEEE;
-    color: black;
+    background-color: #14213d;
+    color: whitesmoke;
 }
 
 .topnav .icon {
@@ -42,7 +47,7 @@ overflow: hidden;
     font-size: 17px;
     border: none;
     outline: none;
-    color: black;
+    color: whitesmoke;
     padding: 20px 22px;
     background-color: inherit;
     font-family: inherit;
@@ -112,6 +117,8 @@ overflow: hidden;
     }
   }
 
+
+
   * {box-sizing:border-box}
 
   .slideshow-container {
@@ -158,7 +165,7 @@ overflow: hidden;
     text-align: center;
   }
 
-  .numbertext {
+  .bruv {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
@@ -192,58 +199,15 @@ overflow: hidden;
   }
 
 
-  .open-button {
-    background-color: #555;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    position: fixed;
-    bottom: 23px;
-    right: 28px;
-    width: 280px;
-  }
+.kaboom {
+  text-align: center;
+  margin: 30px;
+}
 
-  .form-popup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
-  }
-  .form-container {
-    max-width: 300px;
-    padding: 10px;
-    background-color: white;
-  }
-  .form-container textarea {
+  footer {
+    margin-top: auto;
+    background-color: #000;
+    color: whitesmoke;
     width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-    resize: none;
-    min-height: 200px;
-  }
-  .form-container textarea:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  .form-container .btn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom:10px;
-    opacity: 0.8;
-  }
-  .form-container .cancel {
-    background-color: red;
-  }
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
+    height: 100px;
   }

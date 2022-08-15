@@ -21,7 +21,7 @@ function plusSlides(n) {
 
  function showSlides(n) {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
+    let slides = document.getElementsByClassName("myslides");
     let dots = document.getElementsByClassName("dot");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
@@ -35,13 +35,7 @@ function plusSlides(n) {
     dots[slideIndex-1].className += " active";
   } 
 
-  function openForm() {
-    document.getElementById("myForm").style.display = "block";
-  }
-  
-  function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-  } 
+ 
 
 
   

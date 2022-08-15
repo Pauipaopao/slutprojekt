@@ -1,5 +1,5 @@
 body {
-    background-color: #8A84E2;
+    background-color: #cdb4db;
     margin: 0;
 
 }
@@ -9,14 +9,14 @@ h1 {
 }
 
 .topnav {
-background-color: #84AFE6;
+background-color: black;
 overflow: hidden;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
@@ -24,8 +24,8 @@ overflow: hidden;
 }
 
 .topnav a.bleh {
-    background-color: #79BEEE;
-    color: black;
+    background-color: #14213d;
+    color: whitesmoke;
 }
 
 .topnav .icon {
@@ -39,7 +39,7 @@ overflow: hidden;
     font-size: 17px;
     border: none;
     outline: none;
-    color: black;
+    color: whitesmoke;
     padding: 20px 22px;
     background-color: inherit;
     font-family: inherit;
@@ -110,6 +110,7 @@ overflow: hidden;
   }
 
   html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
   }
   
@@ -176,7 +177,7 @@ input[type=text] {
 }
 
 .btn {
-  background-color: #04AA6D;
+  background-color: navy;
   color: white;
   padding: 12px;
   margin: 10px 0;
@@ -188,7 +189,7 @@ input[type=text] {
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: #18125A;
 }
 
 span.price {

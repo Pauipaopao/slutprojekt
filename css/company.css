@@ -1,24 +1,29 @@
 body {
-    background-color: #8A84E2;
+    background-color: whitesmoke;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
+html {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h1 {
     color: black; 
     text-align: center;
 }
 
 .topnav {
-background-color: #84AFE6;
+background-color: black;
 overflow: hidden;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
@@ -26,8 +31,8 @@ overflow: hidden;
 }
 
 .topnav a.bleh {
-    background-color: #79BEEE;
-    color: black;
+    background-color: #14213d;
+    color: whitesmoke;
 }
 
 .topnav .icon {
@@ -41,7 +46,7 @@ overflow: hidden;
     font-size: 17px;
     border: none;
     outline: none;
-    color: black;
+    color: whitesmoke;
     padding: 20px 22px;
     background-color: inherit;
     font-family: inherit;
@@ -111,44 +116,72 @@ overflow: hidden;
     }
   }
 
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    margin-bottom: 70px;
+  .need {
     text-align: center;
-  }
-  
-  .price {
-    color: black;
-    font-size: 22px;
-  }
-  
-  .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.7;
-  }
+    margin: 20px;
+   }
 
+   
+
+   * {box-sizing:border-box}
+
+   .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     max-width: 300px;
+     margin: auto;
+     text-align: center;
+   }
+   
+   .price {
+     color: black;
+     font-size: 22px;
+   }
+   
+   .card button {
+     border: none;
+     outline: 0;
+     padding: 12px;
+     color: white;
+     background-color: #000;
+     text-align: center;
+     cursor: pointer;
+     width: 100%;
+     font-size: 18px;
+   }
+   
+   .card button:hover {
+     opacity: 0.7;
+   }
+ 
+   html {
+     box-sizing: border-box;
+   }
+   
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
+   
+   .column {
+     float: left;
+     width: 33.3%;
+     margin-bottom: 16px;
+     padding: 0 8px;
+   }
+ 
+   @media screen and (max-width: 650px) {
+     .column {
+       width: 100%;
+       display: block;
+     }
+   }
+
+
+  
   footer {
     margin-top: auto;
     background-color: #000;
     color: whitesmoke;
     width: 100%;
-    height: 70px;
+    height: 100px;
    }
 
-   .need {
-    text-align: center;
-    margin: 20px;
-   }

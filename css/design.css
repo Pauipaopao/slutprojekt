@@ -6,9 +6,14 @@ body {
     flex-direction: column;
 }
 
-
 html {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 30px;
+  overflow: hidden;
 }
 
 h1, h2 {

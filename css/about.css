@@ -88,6 +88,11 @@ h1 {
     text-align: center;
 }
 
+p {
+  background-color: inherit;
+  color: #000;
+}
+
 .topnav {
 background-color: black;
 overflow: hidden;

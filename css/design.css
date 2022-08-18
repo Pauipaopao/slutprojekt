@@ -15,6 +15,7 @@ header {
   padding: 30px;
   overflow: hidden;
   margin: 5px;
+  text-align: center;
 }
 
 h1, h2, p {

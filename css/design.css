@@ -19,13 +19,14 @@ header {
 }
 
 .skip {
-  position: relative;
-  text-align: left;
- color: inherit;
- background-color: inherit;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
-  height: fit-content;
-  width: fit-content;
+background-color: inherit;
+  color: inherit;
 }
 
 .skip:focus {

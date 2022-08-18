@@ -17,15 +17,12 @@ header {
   margin: 5px;
 }
 
-h1, h2 {
+h1, h2, p {
     color: black; 
     text-align: center;
+    background-color: inherit;
 }
 
-p {
-  background-color: inherit;
-  color: #000;
-}
 
 .topnav {
 background-color: black;

@@ -83,15 +83,13 @@ html {
   margin: 20px;
 }
 
-h1 {
+h1, p {
     color: black; 
     text-align: center;
+    background-color: inherit;
 }
 
-p {
-  background-color: inherit;
-  color: #000;
-}
+
 
 .topnav {
 background-color: black;
